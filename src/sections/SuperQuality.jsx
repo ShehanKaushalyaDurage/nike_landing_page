@@ -1,3 +1,4 @@
+import { arrowRight } from "../assets/icons";
 import { shoe8 } from "../assets/images";
 import Button from "../components/Button";
 
@@ -23,10 +24,10 @@ const SuperQuality = () => {
             Our dedication to detail and excellence ensures your satisfaction
           </p>
           <div className="mt-11">
-            <Button label="View Details" />
+            <Button label="Shop Now" iconURL={arrowRight}/>
           </div>
         </div>
-        <div className="flex-1 justify-center items-center ">
+        <div className="flex-1 flex justify-center items-center ">
             <img src={shoe8} alt="shoe 8" width={570} height={522} className="object-contain"/>
         </div>
       </section>
